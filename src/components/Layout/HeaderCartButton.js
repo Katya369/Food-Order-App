@@ -21,6 +21,7 @@ useEffect(()=>{
 },[cartCtx.items]);
 
     const btnClasses = `${classes.button} ${btnIsHighlighted ? classes.bump : ''}`;
+    
     return (
     <button className={btnClasses} onClick={props.onShowCart}>
         <span className={classes.icon}>
